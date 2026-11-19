@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akash Sunagar | Aspiring DevOps &amp; Cloud Engineer</title>
+  <meta name="description" content="Portfolio of Akash Sunagar, a Computer Science Engineering student building skills in DevOps, Cloud Computing, Linux, Python automation and CI/CD.">
+  <meta name="theme-color" content="#080D18">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Akash Sunagar | Aspiring DevOps &amp; Cloud Engineer">
+  <meta property="og:description" content="Computer Science Engineering student interested in reliable, scalable and automated infrastructure.">
+  <!-- Optional: add <meta property="og:url" content="http://YOUR-BUCKET.s3-website-REGION.amazonaws.com"> after deployment -->
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Fonts: optional. If blocked or offline, the system font fallbacks in style.css are used. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Icon sprite (stroke icons, referenced with <use>) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-python" viewBox="0 0 24 24"><path d="M12 3c-3.5 0-5 1.2-5 3.2V9h5.5v1H6.5C4.5 10 3.5 11.7 3.5 14s1 4 3 4H9v-2.8c0-1.8 1.2-3 3-3h4c1.7 0 3-1 3-2.7V6.2C19 4.200 16 3 12 3z"/><path d="M13 21c3.500 0 5-1.200 5-3.200V15h-5.500v-1h6c2 0 3-1.700 3-4"/><circle cx="9.500" cy="6" r=".6"/></symbol>
+      <symbol id="i-java" viewBox="0 0 24 24"><path d="M5 10h11v4.500a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V10z"/><path d="M16 11h1.500a2 2 0 0 1 0 4H16"/><path d="M8 3.500v2.500M11.500 3.500v2.500"/><path d="M4 21h13"/></symbol>
+      <symbol id="i-html" viewBox="0 0 24 24"><path d="M8 8l-4.500 4L8 16M16 8l4.500 4L16 16"/></symbol>
+      <symbol id="i-css" viewBox="0 0 24 24"><path d="M9.500 4L7.500 20M16.500 4l-2 16M4.500 9h15.500M4 15h15.500"/></symbol>
+      <symbol id="i-js" viewBox="0 0 24 24"><path d="M9 4C7 4 6 5 6 7v2c0 1.200-1 2.500-2 3 1 .5 2 1.800 2 3v2c0 2 1 3 3 3M15 4c2 0 3 1 3 3v2c0 1.200 1 2.500 2 3-1 .5-2 1.800-2 3v2c0 2-1 3-3 3"/></symbol>
+      <symbol id="i-git" viewBox="0 0 24 24"><circle cx="6" cy="5.500" r="2"/><circle cx="6" cy="18.500" r="2"/><circle cx="18" cy="9" r="2"/><path d="M6 7.500v9M18 11c0 3-2 4.500-5 4.500H8.500"/></symbol>
+      <symbol id="i-fork" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="5" r="2"/><circle cx="12" cy="19" r="2"/><path d="M6 7v1.500a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V7M12 11.500V17"/></symbol>
+      <symbol id="i-actions" viewBox="0 0 24 24"><path d="M5 12a7 7 0 0 1 12-5M19 12a7 7 0 0 1-12 5"/><path d="M17.500 3v4h-4M6.500 21v-4h4"/></symbol>
+      <symbol id="i-jenkins" viewBox="0 0 24 24"><path d="M4 7h9M19 7h1M4 17h1M11 17h9"/><circle cx="16" cy="7" r="2.500"/><circle cx="8" cy="17" r="2.500"/></symbol>
+      <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18a4 4 0 0 1-.500-8 5.500 5.500 0 0 1 10.700-1A4.500 4.500 0 0 1 17 18H7z"/></symbol>
+      <symbol id="i-terminal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 10l3 2-3 2M12.500 15H17"/></symbol>
+      <symbol id="i-docker" viewBox="0 0 24 24"><path d="M12 3l8 4.500v9L12 21l-8-4.500v-9L12 3z"/><path d="M12 12l8-4.500M12 12v9M12 12L4 7.500"/></symbol>
+      <symbol id="i-window" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M10 12l-2 2 2 2M14 12l2 2-2 2"/></symbol>
+      <symbol id="i-bash" viewBox="0 0 24 24"><path d="M5 7l5 5-5 5M12.500 17H19"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.500"/><path d="M5 20a7 7 0 0 1 14 0"/></symbol>
+      <symbol id="i-badge" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5"/><path d="M8.500 13.500L7 21l5-3 5 3-1.500-7.500"/></symbol>
+      <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 5h12l-2 4 2 4H5"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></symbol>
+      <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-grad" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5L2 9z"/><path d="M6 11.500V16c0 1.500 2.700 3 6 3s6-1.500 6-3v-4.500M22 9v6"/></symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Akash Sunagar, back to top">
+        <img class="brand-mark" src="assets/favicon.svg" alt="" width="30" height="30">
+        <span class="brand-name">Akash Sunagar</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About Me</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#skills">Technical Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== 1. HOME ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="status-pill"><span class="status-dot" aria-hidden="true"></span>Open to Learning &amp; Opportunities</p>
+          <h1 class="hero-title" id="hero-title">Akash Sunagar</h1>
+          <p class="hero-role">Aspiring DevOps &amp; Cloud Engineer</p>
+          <p class="hero-intro">Computer Science Engineering student building reliable, automated infrastructure with Linux, Docker, Python and CI/CD pipelines.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore My Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+            <!-- EDIT: GitHub profile URL -->
+            <a class="link-inline" href="https://github.com/akashbeyond" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Decorative, illustrative CI/CD pipeline graphic (CSS only) -->
+        <div class="pipeline" role="img" aria-label="Illustrative graphic of a CI/CD pipeline running through commit, build, test and deploy stages">
+          <div class="pipeline-bar">
+            <span class="pipeline-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="pipeline-file">example-pipeline.yml</span>
+          </div>
+          <ol class="pipeline-stages" aria-hidden="true">
+            <li class="stage" style="--i:0"><span class="stage-node"><svg class="icon"><use href="#i-git"/></svg></span><span class="stage-name">Commit</span></li>
+            <li class="stage" style="--i:1"><span class="stage-node"><svg class="icon"><use href="#i-docker"/></svg></span><span class="stage-name">Build</span></li>
+            <li class="stage" style="--i:2"><span class="stage-node"><svg class="icon"><use href="#i-actions"/></svg></span><span class="stage-name">Test</span></li>
+            <li class="stage" style="--i:3"><span class="stage-node"><svg class="icon"><use href="#i-cloud"/></svg></span><span class="stage-name">Deploy</span></li>
+          </ol>
+          <div class="pipeline-log" aria-hidden="true">
+            <p style="--i:0"><span class="log-prompt">$</span> git push origin main</p>
+            <p style="--i:1"><span class="log-ok">ok</span> image built</p>
+            <p style="--i:2"><span class="log-ok">ok</span> tests passed</p>
+            <p style="--i:3"><span class="log-ok">ok</span> release published</p>
+          </div>
+          <p class="pipeline-caption" aria-hidden="true">Illustration only</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. ABOUT ===================== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="about-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>I am a Computer Science Engineering student interested in building reliable, scalable, and automated infrastructure. My interests include DevOps, Cloud Computing, Linux, Python automation, CI/CD pipelines, and modern software engineering practices. I enjoy learning by building practical projects and exploring how development and infrastructure work together.</p>
+          </div>
+          <div class="about-focus reveal" style="--d:80ms">
+            <h3 class="card-heading">Areas of focus</h3>
+            <ul class="focus-list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-terminal"/></svg>Linux and the command line</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-python"/></svg>Python automation</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-actions"/></svg>CI/CD pipelines</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-docker"/></svg>Containers with Docker</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-cloud"/></svg>AWS fundamentals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. EDUCATION ===================== -->
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="education-title">Education</h2>
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <span class="timeline-marker" aria-hidden="true"><svg class="icon"><use href="#i-grad"/></svg></span>
+            <article class="card edu-card">
+              <p class="edu-date">Expected graduation: 2028</p>
+              <h3 class="edu-degree">B.Tech &ndash; Computer Science and Engineering</h3>
+              <p class="edu-school">GM University, Davangere</p>
+            </article>
+          </li>
+          <li class="timeline-item reveal" style="--d:80ms">
+            <span class="timeline-marker" aria-hidden="true"><svg class="icon"><use href="#i-cap"/></svg></span>
+            <article class="card edu-card">
+              <p class="edu-date">Graduated: 2024</p>
+              <h3 class="edu-degree">Diploma &ndash; Computer Science</h3>
+              <p class="edu-school">Government Polytechnic, Harihar</p>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== 4. SKILLS ===================== -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="skills-title">Technical Skills</h2>
+        <div class="skills-grid">
+
+          <article class="card skill-card reveal">
+            <h3 class="card-heading">Programming Languages</h3>
+            <ul class="skill-list">
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-python"/></svg>Python</li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-java"/></svg>Java</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card reveal" style="--d:60ms">
+            <h3 class="card-heading">Web Development</h3>
+            <ul class="skill-list">
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-html"/></svg>HTML5</li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-css"/></svg>CSS3</li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-js"/></svg>JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card reveal" style="--d:120ms">
+            <h3 class="card-heading">DevOps &amp; CI/CD</h3>
+            <ul class="skill-list">
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-git"/></svg>Git</li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg>GitHub</li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-actions"/></svg>GitHub Actions</li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-jenkins"/></svg>Jenkins</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card reveal">
+            <h3 class="card-heading">Cloud &amp; Infrastructure</h3>
+            <ul class="skill-list">
+              <li class="skill-item skill-item-wide">
+                <svg class="icon" aria-hidden="true"><use href="#i-cloud"/></svg>
+                <span class="skill-name">AWS</span>
+                <span class="skill-level">Beginner &middot; basic practical understanding</span>
+              </li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-terminal"/></svg>Linux</li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-docker"/></svg>Docker</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card reveal" style="--d:80ms">
+            <h3 class="card-heading">Development Tools</h3>
+            <ul class="skill-list">
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-window"/></svg>Visual Studio Code</li>
+              <li class="skill-item"><svg class="icon" aria-hidden="true"><use href="#i-bash"/></svg>Git Bash</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. PROJECTS ===================== -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="projects-title">Projects</h2>
+        <!-- EDIT: replace each href="https://github.com/YOUR_USERNAME/REPO_NAME" with the real repository URL -->
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="card project p1 reveal">
+            <div class="project-visual" aria-hidden="true">
+              <svg viewBox="0 0 220 110" class="motif">
+                <rect x="58" y="14" width="104" height="82" rx="6" class="m-line"/>
+                <path d="M58 32h104" class="m-line"/>
+                <g class="m-dot">
+                  <circle cx="74" cy="46" r="2.500"/><circle cx="92" cy="46" r="2.500"/><circle cx="110" cy="46" r="2.500"/><circle cx="128" cy="46" r="2.500"/><circle cx="146" cy="46" r="2.500"/>
+                  <circle cx="74" cy="60" r="2.500"/><circle cx="92" cy="60" r="2.500"/><circle cx="128" cy="60" r="2.500"/><circle cx="146" cy="60" r="2.500"/>
+                  <circle cx="74" cy="74" r="2.500"/><circle cx="92" cy="74" r="2.500"/><circle cx="110" cy="74" r="2.500"/><circle cx="146" cy="74" r="2.500"/>
+                </g>
+                <circle cx="110" cy="60" r="7" class="m-solid"/>
+                <circle cx="128" cy="74" r="7" class="m-ring"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">CIUX Birthday Assistant</h3>
+              <p class="project-desc">A Flask-based birthday assistant application designed to manage birthday information and provide an interactive user experience. The application uses Python, Flask, and structured data management.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li><li>Flask</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Pandas</li><li>OpenAI-compatible API</li>
+              </ul>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/YOUR_USERNAME/ciux-birthday-assistant" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg>GitHub Repository<span class="visually-hidden"> for CIUX Birthday Assistant</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project p2 reveal" style="--d:70ms">
+            <div class="project-visual" aria-hidden="true">
+              <svg viewBox="0 0 220 110" class="motif">
+                <path d="M20 92l48-30h84l48 30" class="m-line"/>
+                <path d="M68 62l-18-22h120l-18 22" class="m-line"/>
+                <path d="M62 80C84 70 96 74 112 62s34-12 46-26" class="m-path"/>
+                <circle cx="62" cy="80" r="4.500" class="m-solid"/>
+                <circle cx="112" cy="62" r="3" class="m-dot-solid"/>
+                <circle cx="158" cy="36" r="7" class="m-ring"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">AR/VR Campus Navigation System</h3>
+              <p class="project-desc">An interactive campus navigation project designed to demonstrate virtual navigation and movement within a campus environment. The project explores navigation interactions and immersive user experiences.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>AR/VR</li><li>Unity</li><li>C#</li><li>Navigation</li><li>Interactive UI</li>
+              </ul>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/akashbeyond/PBL_ARVR_5thsem" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg>GitHub Repository<span class="visually-hidden"> for AR/VR Campus Navigation System</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project p3 reveal" style="--d:140ms">
+            <div class="project-visual" aria-hidden="true">
+              <svg viewBox="0 0 220 110" class="motif">
+                <path d="M30 55h160" class="m-line"/>
+                <g class="m-node">
+                  <rect x="22" y="40" width="30" height="30" rx="6"/>
+                  <rect x="76" y="40" width="30" height="30" rx="6"/>
+                  <rect x="130" y="40" width="30" height="30" rx="6"/>
+                  <rect x="184" y="40" width="22" height="30" rx="6" transform="translate(-6 0)"/>
+                </g>
+                <path d="M31 55l5 5 9-10" class="m-check"/>
+                <path d="M85 55l5 5 9-10" class="m-check"/>
+                <path d="M139 55l5 5 9-10" class="m-check"/>
+                <circle cx="192" cy="55" r="4" class="m-solid"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">StudentApp &ndash; CI/CD Pipeline</h3>
+              <p class="project-desc">A practical CI/CD learning project demonstrating automated testing and continuous integration using GitHub Actions and Jenkins.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Git</li><li>GitHub</li><li>GitHub Actions</li><li>Jenkins</li><li>Java</li>
+              </ul>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/akashbeyond/StudentApp" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg>GitHub Repository<span class="visually-hidden"> for StudentApp CI/CD Pipeline</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card project p4 reveal">
+            <div class="project-visual" aria-hidden="true">
+              <svg viewBox="0 0 220 110" class="motif">
+                <g class="m-node">
+                  <rect x="22" y="38" width="38" height="34" rx="6"/>
+                  <rect x="91" y="38" width="38" height="34" rx="6"/>
+                  <rect x="160" y="38" width="38" height="34" rx="6"/>
+                </g>
+                <path d="M60 55h31M129 55h31" class="m-line"/>
+                <path d="M41 38V22M110 38V22M179 38V22M41 88V72M110 88V72M179 88V72" class="m-line"/>
+                <path d="M30 55c4-8 8-8 11 0s7 8 11 0M99 55c4-8 8-8 11 0s7 8 11 0M168 55c4-8 8-8 11 0s7 8 11 0" class="m-path"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Emotion Detection Using LSTM</h3>
+              <p class="project-desc">An academic machine learning project focused on emotion detection using Long Short-Term Memory (LSTM) neural networks. The project explores sequence modelling and deep learning techniques to identify emotional patterns from input data.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li><li>Deep Learning</li><li>LSTM</li><li>Neural Networks</li>
+              </ul>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/akashbeyond/Emotion-Detection2" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg>GitHub Repository<span class="visually-hidden"> for Emotion Detection Using LSTM</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="card project p5 reveal" style="--d:70ms">
+            <div class="project-visual" aria-hidden="true">
+              <svg viewBox="0 0 220 110" class="motif">
+                <g class="m-node">
+                  <rect x="26" y="18" width="48" height="74" rx="6"/>
+                  <rect x="86" y="18" width="48" height="74" rx="6"/>
+                  <rect x="146" y="18" width="48" height="74" rx="6"/>
+                </g>
+                <g class="m-line">
+                  <path d="M26 62h48M86 62h48M146 62h48"/>
+                  <path d="M34 74h24M94 74h24M154 74h24"/>
+                </g>
+                <rect x="34" y="82" width="14" height="4" rx="2" class="m-solid"/>
+                <rect x="94" y="82" width="14" height="4" rx="2" class="m-solid"/>
+                <rect x="154" y="82" width="14" height="4" rx="2" class="m-solid"/>
+                <path d="M42 40l8 8 8-8M102 40l8 8 8-8M162 40l8 8 8-8" class="m-path"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">KRIST &ndash; Online Shopping Website</h3>
+              <p class="project-desc">An e-commerce web development project where users can browse and purchase clothing and accessories. It focuses on an organized product presentation and a user-friendly shopping interface.</p>
+              <!-- EDIT: update this list if the exact implementation stack differs -->
+              <ul class="tags" aria-label="Technologies">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li>
+              </ul>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/YOUR_USERNAME/krist-online-shopping" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg>GitHub Repository<span class="visually-hidden"> for KRIST Online Shopping Website</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. CERTIFICATIONS ===================== -->
+    <section class="section" id="certifications" aria-labelledby="certs-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="certs-title">Certifications</h2>
+        <p class="section-lead reveal">Cybersecurity-related certificates completed. Details are being added.</p>
+
+        <!-- EDIT: replace the bracketed placeholders with real details -->
+        <div class="certs-grid">
+          <article class="card cert-card reveal">
+            <span class="cert-icon" aria-hidden="true"><svg class="icon"><use href="#i-badge"/></svg></span>
+            <dl class="cert-fields">
+              <div><dt>Certification</dt><dd class="placeholder">[Cyber Security and Hacker Tactics Awareness Training]</dd></div>
+              <div><dt>Issued by</dt><dd class="placeholder">[Infosys]</dd></div>
+              <div><dt>Completed</dt><dd class="placeholder">[29 July, 2024]</dd></div>
+              <div><dt>Credential</dt><dd><a class="placeholder" href="assets/certificate-1.pdf#toolbar=0&navpanes=0" target="_blank" rel="noopener noreferrer">View Certificate</a></dd></div>
+            </dl>
+          </article>
+          <article class="card cert-card reveal" style="--d:70ms">
+            <span class="cert-icon" aria-hidden="true"><svg class="icon"><use href="#i-badge"/></svg></span>
+            <dl class="cert-fields">
+              <div><dt>Certification</dt><dd class="placeholder">[CISSP]</dd></div>
+              <div><dt>Issued by</dt><dd class="placeholder">[Infosys]</dd></div>
+              <div><dt>Completed</dt><dd class="placeholder">[29 july, 024]</dd></div>
+              <div><dt>Credential</dt><dd><a class="placeholder" href="assets/certificate-2.pdf#toolbar=0&navpanes=0" target="_blank" rel="noopener noreferrer">View Certificate</a></dd></div>
+            </dl>
+          </article>
+          <article class="card cert-card reveal" style="--d:140ms">
+            <span class="cert-icon" aria-hidden="true"><svg class="icon"><use href="#i-badge"/></svg></span>
+            <dl class="cert-fields">
+              <div><dt>Certification</dt><dd class="placeholder">[Cyber Security and Applied Ethical Hacking]</dd></div>
+              <div><dt>Issued by</dt><dd class="placeholder">[Infosys]</dd></div>
+              <div><dt>Completed</dt><dd class="placeholder">[29 July, 2024]</dd></div>
+              <div><dt>Credential</dt><dd><a class="placeholder" href="assets/certificate-3.pdf#toolbar=0&navpanes=0" target="_blank" rel="noopener noreferrer">View Certificate</a></dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ===================== 8. CONTACT ===================== -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="contact-title">Contact</h2>
+        <div class="contact-grid">
+          <div class="reveal">
+            <p class="contact-lead">Interested in talking about DevOps, cloud, or a project? Send me an email.</p>
+            <div class="hero-actions">
+              <!-- EDIT: email address -->
+              <a class="btn btn-primary" href="mailto:your.akashsunagar88@gmail.com">
+                <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>Send an Email
+              </a>
+              <!-- EDIT: add your resume as assets/resume.pdf for this button to work -->
+              <a class="btn btn-secondary" href="assets/resume.docx" download>
+                <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download Resume
+              </a>
+            </div>
+            <p class="note">Resume placeholder: add your own PDF at <code>assets/resume.pdf</code> before this button works.</p>
+          </div>
+
+          <ul class="contact-list reveal" style="--d:80ms">
+            <li>
+              <a class="contact-row" href="mailto:your.email@example.com">
+                <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">akashsunagar88@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a class="contact-row" href="https://github.com/akashbeyond" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">https://github.com/akashbeyond</span>
+              </a>
+            </li>
+            <li>
+              <a class="contact-row" href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-user"/></svg>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">https://www.linkedin.com/in/akash-sunagar-730b24449/</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Akash Sunagar</p>
+      <p class="footer-note">Static site, hosted on Amazon S3.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top">
+    <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
